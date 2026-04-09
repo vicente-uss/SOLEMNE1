@@ -3,66 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <title>Ciberseguridad Pro | Inicio</title>
-    <link rel="stylesheet" href="css/style.css">
-=======
-    <title>CyberConsulting - Servicios</title>
->>>>>>> cac550f (Html todo resuelto)
+    <title>Servicios | CyberConsulting</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="servicios.html">Servicios (BS)</a></li>
-                <li><a href="equipo.html">Nuestro Equipo</a></li>
-                <li><a href="recursos.html">Recursos</a></li>
-                <li><a href="contacto.html">Contacto (BS)</a></li>
-                <li><a href="faq.html">Preguntas Frecuentes</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark px-4">
+            <div class="container-fluid max-width-1200">
+                <a class="navbar-brand fw-bold" href="index.html">CYBERCONSULTING</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="equipo.html">Equipo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-<<<<<<< HEAD
-    
+
     <main>
-        <h1>Página en Construcción</h1>
-        <p>Pronto verás aquí nuestras soluciones de ciberseguridad.</p>
+        <section class="hero mb-5">
+            <div class="container py-5">
+                <h1 class="display-3">Nuestras Soluciones</h1>
+                <p class="lead">Seguridad avanzada para infraestructuras críticas.</p>
+            </div>
+        </section>
+
+        <nav class="container mb-4" aria-label="breadcrumb">
+            <ol class="breadcrumb shadow-sm p-3 bg-white rounded">
+                <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Servicios</li>
+            </ol>
+        </nav>
+
+        <section class="container mb-5">
+            <h2 class="text-center mb-5">Especialidades Técnicas</h2>
+            <div class="grid-container">
+                <article>
+                    <img src="img/cloud.jpg" alt="Auditoría Cloud">
+                    <h3>Auditoría Cloud</h3>
+                    <p>Revisión exhaustiva de arquitecturas en Azure y AWS.</p>
+                    <span class="badge rounded-pill bg-primary">Azure & AWS</span>
+                </article>
+
+                <article>
+                    <img src="img/network.jpg" alt="Securización">
+                    <h3>Securización de Redes</h3>
+                    <p>Implementación de firewalls de última generación y VPNs seguras.</p>
+                    <span class="badge rounded-pill bg-success">Infraestructura</span>
+                </article>
+
+                <article>
+                    <img src="img/pentest.jpg" alt="Pentesting">
+                    <h3>Pentesting Avanzado</h3>
+                    <p>Simulacros de ataques reales para identificar vulnerabilidades críticas.</p>
+                    <span class="badge rounded-pill bg-danger">Urgente</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="container mb-5">
+            <div class="faq-section shadow p-4 bg-white rounded-4">
+                <h2 class="mb-4">Preguntas Frecuentes</h2>
+                <div class="accordion accordion-flush" id="faqCyber">
+                    <div class="accordion-item faq-item border-0">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
+                                ¿Cómo garantizan la continuidad del negocio?
+                            </button>
+                        </h2>
+                        <div id="q1" class="accordion-collapse collapse" data-bs-parent="#faqCyber">
+                            <div class="accordion-body text-muted">
+                                Utilizamos metodologías internacionales para asegurar que sus servicios nunca se detengan durante nuestras auditorías.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Ciberseguridad Pro - Isidora & Vicente</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-white">CyberConsulting</h5>
+                    <p class="small">Líderes en consultoría de seguridad informática.</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2026 Ciberseguridad Pro | Vixoo & Partner</p>
+                </div>
+            </div>
+        </div>
     </footer>
-=======
 
-    <main>
-        <h1>Servicios</h1>
-        
-        <nav>
-            <ul>
-                <li><a href="#servicio-1">Servicio 1</a></li>
-                <li><a href="#servicio-2">Servicio 2</a></li>
-                <li><a href="#servicio-3">Servicio 3</a></li>
-            </ul>
-        </nav>
-
-        <section id="servicio-1">
-            <img src="" alt="Imagen Servicio Auditoría">
-            <h2>Auditoría de Infraestructura Cloud</h2>
-            <p>Revisión de arquitecturas en la nube (Azure/AWS) y sus políticas de acceso.</p>
-            
-            <h3>Detalle de Uso</h3>
-            <img src="" alt="Imagen de Uso Auditoría">
-            <p>Descripción detallada de la auditoría y metodología aplicada en su entorno.</p>
-        </section>
-
-        <section id="servicio-2">
-            <img src="" alt="Imagen Servicio Securización">
-            <h2>Securización de Redes</h2>
-            <p>Implementación de firewalls, VPNs y monitoreo de tráfico.</p>
-        </section>
-    </main>
->>>>>>> cac550f (Html todo resuelto)
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
