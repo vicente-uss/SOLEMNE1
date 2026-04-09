@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 version: '3.8'
 services:
   web:
@@ -6,14 +5,4 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - .:/usr/share/nginx/html # Aquí también cambia la ruta
-=======
-version: '3.8'
-services:
-  web:
-    build: .
-    ports:
-      - "8080:80"
-    volumes:
-      - .:/usr/share/nginx/html # Aquí también cambia la ruta
->>>>>>> e25f295 (feat: crear las 7 paginas base para el sitio de ciberseguridad)
+      - .:/usr/share/nginx/html
