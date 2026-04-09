@@ -2,7 +2,9 @@
 Página para la solemne 1 de Aplicaciones y tecnologías de la web
 
 #Estructura
+
 #,Página,Contenido Clave,Tecnología
+
 1,Inicio,"Hero con fondo oscuro, mensaje de ""Protegemos tus datos"" y botón de acción (CTA).",CSS Puro
 
 2,Nosotros,"Misión, visión y por qué confiar en una consultora de seguridad.",CSS Puro
